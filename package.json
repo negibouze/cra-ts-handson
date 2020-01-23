@@ -10,7 +10,9 @@
     "elint": "eslint --ext .ts,.js,.vue --ignore-path .gitignore .",
     "elint:fix": "eslint --fix --ext ts,tsx --ignore-path .gitignore .",
     "slint": "stylelint src/**/*.{css,scss}",
-    "slint:fix": "stylelint --fix src/**/*.{css,scss}"
+    "slint:fix": "stylelint --fix src/**/*.{css,scss}",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "browserslist": {
     "production": [
@@ -44,6 +46,11 @@
     "typescript": "^3.7.5"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^5.3.8",
+    "@storybook/addon-links": "^5.3.8",
+    "@storybook/addons": "^5.3.8",
+    "@storybook/preset-create-react-app": "^1.5.2",
+    "@storybook/react": "^5.3.8",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
