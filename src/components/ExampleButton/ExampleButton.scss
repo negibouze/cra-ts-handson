@@ -1,5 +1,7 @@
+@import "example";
+
 .test {
-  background-color: rgb(148, 224, 66);
+  background-color: $example-color;
   height: 44px;
   width: 180px;
 }
