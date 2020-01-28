@@ -1,4 +1,5 @@
 import React from 'react'
+import './ExampleButton.scss'
 
 export interface ExampleButtonProps {
   label: string
@@ -6,7 +7,11 @@ export interface ExampleButtonProps {
 }
 
 const ExampleButton: React.FC<ExampleButtonProps> = props => {
-  return <button onClick={props.onClick}>{props.label}</button>
+  return (
+    <button className="test" onClick={props.onClick}>
+      {props.label}
+    </button>
+  )
 }
 
 export default ExampleButton
