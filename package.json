@@ -99,7 +99,7 @@
     "prettier": "^1.19.1",
     "react-test-renderer": "^16.12.0",
     "source-map-explorer": "^2.2.2",
-    "stylelint": "^13.0.0",
+    "stylelint": "^15.10.1",
     "stylelint-config-standard": "^19.0.0",
     "stylelint-order": "^4.0.0",
     "stylelint-scss": "^3.14.2"
